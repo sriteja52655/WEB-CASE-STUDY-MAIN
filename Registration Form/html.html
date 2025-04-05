@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <h1>EVENT REGISTRATION FORM</h1>
+    <p>Event Registration Group (ERG) meetings: Thursdays 1-2pm Command Center, Public Safety</p>
+    <p>Events must be approved by ERG with signatures in order five (5) business days before the event date.</p><h2>Event Details</h2>
+<form>
+    <label>Event Name:</label>
+    <input type="text" name="event_name"><br><br>
+    
+    <label>Event Day:</label>
+    <input type="text" name="event_day"><br><br>
+    
+    <label>Time Event Starts:</label>
+    <input type="text" name="start_time">
+    <input type="radio" name="start_period" value="AM"> A.M.
+    <input type="radio" name="start_period" value="PM"> P.M.<br><br>
+    
+    <label>Time Event Ends:</label>
+    <input type="text" name="end_time">
+    <input type="radio" name="end_period" value="AM"> A.M.
+    <input type="radio" name="end_period" value="PM"> P.M.<br><br>
+    
+    <label>Event Location (Required):</label>
+    <input type="text" name="event_location"><br><br>
+    
+    <label>Expected # of Attendees:</label>
+    <input type="text" name="attendees"><br><br>
+    
+    <label>Is this event part of an Academic Program?</label>
+    <input type="radio" name="academic_program" value="Yes"> Yes
+    <input type="radio" name="academic_program" value="No"> No<br><br>
+    
+    <label>Faculty Name:</label>
+    <input type="text" name="faculty_name"><br><br>
+    
+    <label>Faculty Signature:</label>
+    <input type="text" name="faculty_signature"><br><br>
+    
+    <label>Event Type:</label><br>
+    <input type="checkbox" name="event_type" value="Exhibition Reception"> Exhibition Reception<br>
+    <input type="checkbox" name="event_type" value="Music Show/Sound Show"> Music Show/Sound Show<br>
+    <input type="checkbox" name="event_type" value="Spoken Word/Open Mic"> Spoken Word/Open Mic<br>
+    <input type="checkbox" name="event_type" value="Theatrical Performance"> Theatrical Performance<br>
+    <input type="checkbox" name="event_type" value="Multi-Media Performance"> Multi-Media Performance<br>
+    <input type="checkbox" name="event_type" value="Fundraiser/Bake Sale"> Fundraiser/ Bake Sale<br>
+    <input type="text" name="event_type_other" placeholder="Other:"><br><br>
+    
+    <label>Expected noise level:</label>
+    <input type="radio" name="noise_level" value="Quiet"> Quiet
+    <input type="radio" name="noise_level" value="Moderate"> Moderate
+    <input type="radio" name="noise_level" value="Loud"> Loud<br><br>
+    
+    <label>Additional Event Details:</label><br>
+    <textarea name="additional_details" rows="4" cols="50"></textarea><br><br>
+    
+    <h2>Event Organizer</h2>
+    <label>Event Organizer:</label>
+    <input type="text" name="event_organizer"><br><br>
+    
+    <label>Organization:</label>
+    <input type="text" name="organization"><br><br>
+    
+    <label>Type:</label>
+    <input type="radio" name="type" value="Student"> Student
+    <input type="radio" name="type" value="Staff"> Staff
+    <input type="radio" name="type" value="Faculty"> Faculty<br><br>
+    
+    <label>Address:</label>
+    <input type="text" name="address"><br><br>
+    
+    <label>City:</label>
+    <input type="text" name="city">
+    <label>State:</label>
+    <input type="text" name="state">
+    <label>Zip:</label>
+    <input type="text" name="zip"><br><br>
+    
+    <label>Phone #:</label>
+    <input type="text" name="phone"><br><br>
+    
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+    
+    <h2>Revenue Collection</h2>
+    <label>Will funds be collected at this event?</label>
+    <input type="radio" name="funds_collected" value="Yes"> Yes
+    <input type="radio" name="funds_collected" value="No"> No<br><br>
+    
+    <label>Will admission be charged?</label>
+    <input type="radio" name="admission" value="Yes"> Yes
+    <input type="radio" name="admission" value="No"> No<br><br>
+    
+    <label>If yes, how much per person?</label>
+    <input type="text" name="admission_fee"><br><br>
+    
+    <label>Is this a fundraiser?</label>
+    <input type="radio" name="fundraiser" value="Yes"> Yes
+    <input type="radio" name="fundraiser" value="No"> No<br><br>
+    
+    <label>If yes, where will the funds be deposited?</label>
+    <input type="text" name="funds_deposit"><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
